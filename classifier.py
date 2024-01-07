@@ -73,4 +73,4 @@ labels_test = build_labels(mail_test_names)
 
 print("Calcuating accuracy of the tested classifier")
 accuracy = classifier.score(features_test, labels_test)
-print("Accuracy: ", accuracy)
+print("Accuracy: ", accuracy*100)
